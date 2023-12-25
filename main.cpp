@@ -356,8 +356,6 @@ int main() {
 	std::cout << std::setprecision(15);
 	std::cout << "sin(x) = " << sin_cordic(t, i) << std::endl;
 	std::cout << "cos(x) = " << cos_cordic(t, i) << std::endl;
-	std::cout << "tg(x) = " << sin_cordic(t, i) / cos_cordic(x, i) << std::endl;
-	std::cout << "ctg(x) = " << cos_cordic(t, i) / sin_cordic(x, i) << std::endl;
 	std::cout << "arctg(y/x) = " << atan2_cordic(y, x, i) << std::endl;
 	std::cout << "sh(x) = " << sinh_cordic(t, i) << std::endl;
 	std::cout << "ch(x) = " << cosh_cordic(t, i) << std::endl; 
